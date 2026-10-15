@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "Tendril",
+    "slug": "tendril",
+    "scheme": "tendril",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "backgroundColor": "#0B0F0C",
+    "icon": "./assets/images/icon.png",
+    "ios": {
+      "supportsTablet": false,
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "monochromeImage": "./assets/images/adaptive-icon-mono.png",
+        "backgroundColor": "#0B0F0C"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/images/favicon.png",
+      "themeColor": "#0B0F0C",
+      "description": "Tendril, a calm habit tracker: check off your day, keep streaks alive and watch a year of small habits grow."
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 150,
+          "resizeMode": "contain",
+          "backgroundColor": "#0B0F0C"
+        }
+      ]
+    ]
+  }
+}
