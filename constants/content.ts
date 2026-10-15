@@ -1,16 +1,16 @@
 /**
- * Tendril: the brand, colors, sample habits and every word on screen live in
+ * Rootwell: the brand, colors, sample habits and every word on screen live in
  * this one file. Rebrand the app by editing the values below; every screen
  * reads from here. (Fonts: constants/theme.ts. Icons: constants/icons.ts.)
  *
  * Copy can hold {placeholders}; lib/format.ts → fill() swaps the values in.
- * Tendril, Maya and the sample habits are fictional.
+ * Rootwell, Maya and the sample habits are fictional.
  */
 import type { PartOfDay, ThemePref } from "@/lib/types";
 import type { IconName } from "./icons";
 
 export const brand = {
-  name: "Tendril",
+  name: "Rootwell",
   tagline: "Habits that grow",
   version: "1.0.0",
 };
@@ -562,7 +562,7 @@ export const copy = {
     hapticsBody: "A soft tap when you check something off",
     reminders: "Reminders",
     daily: "Daily check-in",
-    dailyBody: "One calm nudge to open Tendril",
+    dailyBody: "One calm nudge to open Rootwell",
     streakSaver: "Streak saver",
     streakSaverBody: "A heads-up at 8 PM when a streak is at risk",
     habits: "Habits",
@@ -591,7 +591,7 @@ export const copy = {
     next: "Continue",
     start: "Start growing",
     stepOf: "{n} of 3",
-    welcomeEyebrow: "Welcome to Tendril",
+    welcomeEyebrow: "Welcome to Rootwell",
     welcomeTitle: "Small habits.\nDeep roots.",
     welcomeBody: "Check off a few small things each day and watch them grow into the life you want.",
     pickTitle: "What would you like to grow?",
@@ -599,7 +599,7 @@ export const copy = {
     picked: "{n} picked",
     pickNone: "Pick at least one",
     nameTitle: "Make it yours",
-    nameBody: "Tendril keeps everything on this phone. No account needed.",
+    nameBody: "Rootwell keeps everything on this phone. No account needed.",
     nameLabel: "What should we call you?",
     namePlaceholder: "Your name",
     reminderLabel: "A daily check-in",

@@ -76,11 +76,11 @@ function migrate(db: SQLite.SQLiteDatabase) {
 
 function open() {
   try {
-    const db = SQLite.openDatabaseSync("tendril.db");
+    const db = SQLite.openDatabaseSync("rootwell.db");
     migrate(db);
     return db;
   } catch (error) {
-    console.warn("[tendril] SQLite is unavailable; changes will not be saved.", error);
+    console.warn("[rootwell] SQLite is unavailable; changes will not be saved.", error);
     return null;
   }
 }
@@ -133,7 +133,7 @@ function write(task: (db: SQLite.SQLiteDatabase) => void) {
   try {
     task(db);
   } catch (error) {
-    console.warn("[tendril] Could not save a change.", error);
+    console.warn("[rootwell] Could not save a change.", error);
   }
 }
 
@@ -158,7 +158,7 @@ export const storage: GardenStorage = {
       }
       return { habits, checkins, prefs };
     } catch (error) {
-      console.warn("[tendril] Could not read saved habits.", error);
+      console.warn("[rootwell] Could not read saved habits.", error);
       return null;
     }
   },

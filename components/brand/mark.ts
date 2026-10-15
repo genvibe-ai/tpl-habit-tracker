@@ -1,5 +1,5 @@
 /**
- * The Tendril mark: a sprout whose stem curls into a tendril. Drawn in a
+ * The Rootwell mark: a sprout whose stem curls into a tendril. Drawn in a
  * 120 × 120 box; the same shapes make the app icon (assets/images).
  */
 export const MARK = {

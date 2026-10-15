@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "Tendril",
-    "slug": "tendril",
-    "scheme": "tendril",
+    "name": "Rootwell",
+    "slug": "rootwell",
+    "scheme": "rootwell",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "automatic",
@@ -26,7 +26,7 @@
       "output": "single",
       "favicon": "./assets/images/favicon.png",
       "themeColor": "#0B0F0C",
-      "description": "Tendril, a calm habit tracker: check off your day, keep streaks alive and watch a year of small habits grow."
+      "description": "Rootwell, a calm habit tracker: check off your day, keep streaks alive and watch a year of small habits grow."
     },
     "plugins": [
       "expo-router",

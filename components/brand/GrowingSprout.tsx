@@ -32,7 +32,7 @@ const SPORES = [
   { x: 0.1, size: 3, delay: 4100, duration: 6400 },
 ];
 
-/** The welcome illustration: the Tendril sprout draws itself, its leaves unfurl, light breathes behind it. */
+/** The welcome illustration: the Rootwell sprout draws itself, its leaves unfurl, light breathes behind it. */
 export function GrowingSprout({ size = 220 }: { size?: number }) {
   const t = useTheme();
   const id = useId().replace(/[^a-zA-Z0-9]/g, "");

@@ -2,7 +2,7 @@ import { useId } from "react";
 import Svg, { Defs, G, LinearGradient, Path, Stop } from "react-native-svg";
 import { MARK } from "./mark";
 
-/** The Tendril mark on a transparent background. */
+/** The Rootwell mark on a transparent background. */
 export function Logo({ size = 48 }: { size?: number }) {
   const id = useId().replace(/[^a-zA-Z0-9]/g, "");
   const { colors } = MARK;

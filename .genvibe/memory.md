@@ -1,7 +1,7 @@
-# Tendril: habit-tracker template
+# Rootwell: habit-tracker template
 
 ## What this app is
-Tendril, a calm habit tracker (Expo SDK 57, Expo Router, TypeScript) for Expo Go and the web preview. Check off small habits daily, keep streaks, watch them grow. Data stays on the device: no account, server, analytics or env vars.
+Rootwell, a calm habit tracker (Expo SDK 57, Expo Router, TypeScript) for Expo Go and the web preview. Check off small habits daily, keep streaks, watch them grow. Data stays on the device: no account, server, analytics or env vars.
 
 ## Built so far
 Onboarding (3 steps). Today: week strip (past days editable), progress ring, habits by time of day, spring check-off with haptics, counted habits, streak flames, all-done celebration. Habit page: 12-month heatmap, streaks, 30-day completion, strength stage, weekly/weekday charts, archive/delete. Add/Edit modal: name, note, icon, color, daily goal + unit, schedule, time of day, reminder time. Stats (7/30/90 days): completion, perfect days, check-ins, longest streak, heatmap, 12-week trend, by habit, strongest days. Settings: name, theme dark/light/system, week start, haptics, reminder toggles, archived, restore sample, start fresh, replay welcome. Six sample habits, 120 days of seeded history; reminders are UI only.

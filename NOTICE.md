@@ -1,6 +1,6 @@
 # Notice
 
-Tendril is based on **Open-Source Habit Tracker App** by Hasib Haque (MIT,
+Rootwell is based on **Open-Source Habit Tracker App** by Hasib Haque (MIT,
 https://github.com/hasibhaque07/open-source-habit-tracker-app), © 2026 Hasib Haque. The original MIT
 license is kept in [LICENSE-UPSTREAM](LICENSE-UPSTREAM). This template is released under the MIT license
 in [LICENSE](LICENSE).
@@ -9,7 +9,7 @@ in [LICENSE](LICENSE).
 
 - Upgraded from Expo SDK 54 to Expo SDK 57 (React 19.2.3, react-native 0.86.3, Reanimated 4 with
   react-native-worklets, Expo Router 57) so it runs in the Expo Go app and in the web preview.
-- Rewritten as "Tendril", habits that grow: three-step onboarding; Today with a progress ring, week strip,
+- Rewritten as "Rootwell", habits that grow: three-step onboarding; Today with a progress ring, week strip,
   animated check-off with haptics, counted habits, streak flames and an all-done celebration; a habit page
   with a 12-month heatmap, streaks, completion, strength stage, weekly and weekday charts; Add/Edit habit
   (name, note, icon, color, daily goal, schedule, time of day, reminder time); Stats; Settings; dark and light
@@ -32,7 +32,7 @@ in [LICENSE](LICENSE).
   for GenVibe (`components/brand/mark.ts`, rendered to PNG). The app ships no photos; `public/` holds only
   the web `index.html`.
 
-Tendril, Maya, the sample habits and every streak, number and quote in the app are fictional. No real
+Rootwell, Maya, the sample habits and every streak, number and quote in the app are fictional. No real
 company, person, logo or trademark appears in the code, copy or data.
 
 Dependencies keep their own licenses. Parts of the project scaffold (root layout, Metro and Babel

@@ -7,7 +7,7 @@
 import { defaultPrefs } from "./sample";
 import type { GardenStorage, Snapshot } from "./types";
 
-const KEY = "tendril.garden.v1";
+const KEY = "rootwell.garden.v1";
 
 let current: Snapshot | null = null;
 let timer: ReturnType<typeof setTimeout> | null = null;
