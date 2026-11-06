@@ -27,7 +27,7 @@ const TAB_ICONS: Record<string, IconName> = {
 const PADDING = 6;
 
 /** The floating tab bar: three tabs on a glass pill, and a round "new habit" button. */
-export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
+export function TabBar({ state, descriptors, emitter, navigateToTab }: BottomTabBarProps) {
   const s = useStyles();
   const t = useTheme();
   const insets = useSafeAreaInsets();
@@ -62,10 +62,11 @@ export function TabBar({ state, descriptors, navigation }: BottomTabBarProps) {
                 scaleTo={0.92}
                 style={s.item}
                 onPress={() => {
-                  const event = navigation.emit({ type: "tabPress", target: route.key, canPreventDefault: true });
+                  // expo-router 58 hands a custom tab bar `emitter` and `navigateToTab`, not `navigation`.
+                  const event = emitter.emit({ type: "tabPress", target: route.key, canPreventDefault: true });
                   if (!focused && !event.defaultPrevented) {
                     haptics.select();
-                    navigation.navigate(route.name, route.params);
+                    navigateToTab(route.key);
                   }
                 }}
               >
